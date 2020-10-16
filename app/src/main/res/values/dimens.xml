@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">10dp</dimen>
+    <dimen name="btn_calc">62dp</dimen>
+    <dimen name="btn_calc_margin">4dp</dimen>
+    <dimen name="btn_calc_text_size">20sp</dimen>
+</resources>
