@@ -13,7 +13,7 @@
         android:id="@+id/tv_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="3 + 3"
+        android:text=""
         android:textColor="#ededed"
         android:gravity="right"
         android:layout_marginRight="10dp"
@@ -25,7 +25,7 @@
         android:id="@+id/tv_ans"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="6"
+        android:text=""
         android:textColor="#ededed"
         android:gravity="right"
         android:textSize="37sp"
@@ -52,23 +52,25 @@
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
+            android:id="@+id/button_sqr"
+            android:text="sqr"
             android:layout_height="@dimen/btn_calc"
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
-            android:backgroundTint="@color/calcbackground"
+            android:backgroundTint="@color/btn_sign"
             />
 
         <Button
-
+            android:id="@+id/button_root"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
             android:layout_margin="@dimen/btn_calc_margin"
-
+            android:text="√"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
-            android:backgroundTint="@color/calcbackground"
+            android:backgroundTint="@color/btn_sign"
             />
         <Button
             android:id="@+id/button_ex"
@@ -227,6 +229,7 @@
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
             android:text="7"
+
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
@@ -279,11 +282,11 @@
         android:layout_centerHorizontal="true"
         android:layout_width="match_parent">
         <Button
-            android:id="@+id/button_4"
+            android:id="@+id/button_6"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
-            android:text="4"
+            android:text="6"
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
@@ -301,11 +304,11 @@
             android:backgroundTint="@color/calcbackground"
             />
         <Button
-            android:id="@+id/button_6"
+            android:id="@+id/button_4"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
-            android:text="6"
+            android:text="4"
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
@@ -335,11 +338,11 @@
         android:layout_centerHorizontal="true"
         android:layout_width="match_parent">
         <Button
-            android:id="@+id/button_3"
+            android:id="@+id/button_1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
-            android:text="3"
+            android:text="1"
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
@@ -357,11 +360,11 @@
             android:backgroundTint="@color/calcbackground"
             />
         <Button
-            android:id="@+id/button_1"
+            android:id="@+id/button_3"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="@dimen/btn_calc"
-            android:text="1"
+            android:text="3"
             android:layout_margin="@dimen/btn_calc_margin"
             android:textSize="@dimen/btn_calc_text_size"
             android:background="@drawable/roundedbutton"
